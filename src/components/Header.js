@@ -43,6 +43,11 @@ const Header = (props) => {
               </a>
             </li>
             <li>
+              <a className="smoothscroll" href="#blog">
+                Blog
+              </a>
+            </li>
+            <li>
               <a href="https://drive.google.com/file/d/1qlQodT8IykFPM9tM02CiviQMtz3UXhwa/view?usp=sharing" target="_blank">Resume Download</a>
             </li>
           </ul>

@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 import DownloadResume from './components/DownloadResume';
+import Blog from './components/Blog';
 function App() {
   
     return (
@@ -16,10 +17,12 @@ function App() {
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
+       
         <Testimonials resumeData={resumeData}/>
+        <Blog resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
-        <DownloadResume></DownloadResume>
+        
       </div>
     );
   }
